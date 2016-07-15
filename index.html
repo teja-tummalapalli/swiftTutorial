@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Swift Tutorial</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
+<script type="text/javascript" src="js/sandbox.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Swift Tutorial</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#helloworld">Hello World</a>
+                    </li>
+                    <li>
+                        <a href="#variables">Variables</a>
+                    </li>
+                    <li>
+                        <a href="#types">Types</a>
+                    </li>
+                    <li>
+                        <a href="#operators">Operators</a>
+                    </li>
+                    <li>
+                        <a href="#collections">Collections</a>
+                    </li>
+                    <li>
+                        <a href="#loops">Loops</a>
+                    </li>
+                    <li>
+                        <a href="#conditionals">Conditionals</a>
+                    </li>
+                    <li>
+                        <a href="#functions">Functions</a>
+                    </li>
+                    <li>
+                        <a href="#classes">Classes</a>
+                    </li>
+                    <li>
+                        <a href="#properties">Properties</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Swift Tutorial</h1>
+                <h2>Swift for non developers</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+        
+        <!-- Zeroth -->
+    
+        <div class="featurette row" id="helloworld">
+            <div class = "col-sm-6">
+            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            </div>
+            <div class = "col-sm-6">
+            <h2 class="featurette-heading">Hello World
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <code class="inlay-code" data-gist-id="afca270ea4f604e90109e9eed14f73af" data-gist-file="00_HelloWorld.swift"></code> 
+                <div class="playButton">
+                    <br>
+                    <a href="http://swiftlang.ng.bluemix.net/#/repl/57890cb0eb3917fb1ab03525"  target="_blank" class="btn btn-default" role="button">Play!</a>
+                </div>
+
+            </div>
+         </div>      
+
+
+     
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+    
+        <div class="featurette row" id="variables">
+            <div class = "col-sm-6">
+            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            </div>
+            <div class = "col-sm-6">
+            <h2 class="featurette-heading">
+                Variables
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <code class="inlay-code" data-gist-id="afca270ea4f604e90109e9eed14f73af" data-gist-file="01_Variables.swift"></code> 
+                <div class="playButton">
+                    <br>
+                    <a href="http://swiftlang.ng.bluemix.net/#/repl/57890ddbeb3917fb1ab03528"  target="_blank" class="btn btn-default" role="button">Play!</a>
+                </div>
+
+            </div>
+         </div>      
+        
+        <hr class="featurette-divider">
+        
+         <!-- Second Featurette -->
+    
+        <div class="featurette row" id="types">
+            <div class = "col-sm-6">
+            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            </div>
+            <div class = "col-sm-6">
+            <h2 class="featurette-heading">
+                Types
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <code class="inlay-code" data-gist-id="afca270ea4f604e90109e9eed14f73af" data-gist-file="02_Types.swift"></code> 
+                <div class="playButton">
+                    <br>
+                    <a href="http://swiftlang.ng.bluemix.net/#/repl/57890eabeb3917fb1ab0352b"  target="_blank" class="btn btn-default" role="button">Play!</a>
+                </div>
+
+            </div>
+         </div>      
+        
+        <hr class="featurette-divider">
+
+         <!-- Third Featurette -->
+    
+        <div class="featurette row" id="operators">
+            <div class = "col-sm-6">
+            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            </div>
+            <div class = "col-sm-6">
+            <h2 class="featurette-heading">
+                Operators
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <code class="inlay-code" data-gist-id="afca270ea4f604e90109e9eed14f73af" data-gist-file="03_Operators.swift"></code> 
+                <div class="playButton">
+                    <br>
+                    <a href="http://swiftlang.ng.bluemix.net/#/repl/57890ef7eb3917fb1ab0352c"  target="_blank" class="btn btn-default" role="button">Play!</a>
+                </div>
+
+            </div>
+         </div>      
+<hr class="featurette-divider">
+         <!-- Forth Featurette -->
+    
+        <div class="featurette row" id="collections">
+            <div class = "col-sm-6">
+            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            </div>
+            <div class = "col-sm-6">
+            <h2 class="featurette-heading">
+                Collections
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <code class="inlay-code" data-gist-id="afca270ea4f604e90109e9eed14f73af" data-gist-file="04_Collections.swift"></code> 
+                
+                <div class="playButton">
+                    <br>
+                    <a href="http://swiftlang.ng.bluemix.net/#/repl/57890f6feb3917fb1ab03530"  target="_blank" class="btn btn-default" role="button">Play!</a>
+                </div>
+
+            </div>
+         </div>      
+
+
+        <hr class="featurette-divider">
+
+         <!-- Fifth Featurette -->
+    
+        <div class="featurette row" id="loops">
+            <div class = "col-sm-6">
+            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            </div>
+            <div class = "col-sm-6">
+            <h2 class="featurette-heading">
+                Loops
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <code class="inlay-code" data-gist-id="afca270ea4f604e90109e9eed14f73af" data-gist-file="05_loops.swift"></code> 
+                <div class="playButton">
+                    <br>
+                    <a href="http://swiftlang.ng.bluemix.net/#/repl/57890f9deb3917fb1ab03531"  target="_blank" class="btn btn-default" role="button">Play!</a>
+                </div>
+
+            </div>
+         </div>      
+
+
+        <hr class="featurette-divider">
+         <!--  Sixth -->
+    
+        <div class="featurette row" id="conditionals">
+            <div class = "col-sm-6">
+            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            </div>
+            <div class = "col-sm-6">
+            <h2 class="featurette-heading">
+                Conditional Statements
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <code class="inlay-code" data-gist-id="afca270ea4f604e90109e9eed14f73af" data-gist-file="06_Conditionals.swift"></code> 
+                <div class="playButton">
+                    <br>
+                    <a href="http://swiftlang.ng.bluemix.net/#/repl/57890fcbeb3917fb1ab03532"  target="_blank" class="btn btn-default" role="button">Play!</a>
+                </div>
+
+            </div>
+         </div>      
+
+
+        <hr class="featurette-divider">
+         <!-- Seventh -->
+    
+        <div class="featurette row" id="functions">
+            <div class = "col-sm-6">
+            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            </div>
+            <div class = "col-sm-6">
+            <h2 class="featurette-heading">
+                Functions
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <code class="inlay-code" data-gist-id="afca270ea4f604e90109e9eed14f73af" data-gist-file="07_Functions.swift"></code> 
+                <div class="playButton">
+                    <br>
+                    <a href="http://swiftlang.ng.bluemix.net/#/repl/5789100eeb3917fb1ab03533"  target="_blank" class="btn btn-default" role="button">Play!</a>
+                </div>
+
+            </div>
+         </div>      
+
+
+        <hr class="featurette-divider">
+         <!-- Eight -->
+    
+        <div class="featurette row" id="classes">
+            <div class = "col-sm-6">
+            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            </div>
+            <div class = "col-sm-6">
+            <h2 class="featurette-heading">Classes
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <code class="inlay-code" data-gist-id="afca270ea4f604e90109e9eed14f73af" data-gist-file="08_Classes.swift"></code> 
+                <div class="playButton">
+                    <br>
+                    <a href="http://swiftlang.ng.bluemix.net/#/repl/57891062eb3917fb1ab03534"  target="_blank" class="btn btn-default" role="button">Play!</a>
+                </div>
+
+            </div>
+         </div>      
+
+
+        <hr class="featurette-divider">
+         <!-- Nine -->
+    
+        <div class="featurette row" id="properties">
+            <div class = "col-sm-6">
+            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            </div>
+            <div class = "col-sm-6">
+            <h2 class="featurette-heading">Properties
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <code class="inlay-code" data-gist-id="afca270ea4f604e90109e9eed14f73af" data-gist-file="09_Properties.swift"></code> 
+                <div class="playButton">
+                    <br>
+                    <a href="http://swiftlang.ng.bluemix.net/#/repl/578910a7eb3917fb1ab03535"  target="_blank" class="btn btn-default" role="button">Play!</a>
+                </div>
+
+            </div>
+         </div>      
+
+
+        <hr class="featurette-divider">
+         
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; IBM 2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
