@@ -6,5 +6,6 @@ applications:
   buildpack: sdk-for-nodejs
   memory: 256M
   instances: 1
+  command : npm start
   host: learn-swift-easy-way
   path: ./internal
