@@ -1,11 +1,11 @@
 ---
+
+# to run a separate copy of this app, change the host to something unique and create a community mongodb service named "wdc-mongodb"
+
 applications:
-- name: swift-tutorial
-  memory: 256M
+- name: wreresaest
+  buildpack: sdk-for-nodejs
   instances: 1
-  host: learn-swift-easy-way
-  path: index.html
-env:
-   IBM_JVM_LICENCE: L-JWOD-9SYNCP
-   IBM_LIBERTY_LICENCE: L-MCAO-9SYMVC
-   JBP_CONFIG_IBMJDK: 'version: 1.8.+'
+  command: npm start
+  host: wreresaest
+  path: ./index.html
