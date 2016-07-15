@@ -1,6 +1,4 @@
 ---
-
-
 applications:
 - name: swift-tutorial
   buildpack: sdk-for-nodejs
