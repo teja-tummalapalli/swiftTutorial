@@ -1,9 +1,11 @@
 ---
 applications:
 - name: swift-tutorial
-  buildpack: sdk-for-nodejs
   memory: 256M
   instances: 1
-  command: npm start
   host: learn-swift-easy-way
   path: index.html
+env:
+   IBM_JVM_LICENCE: L-JWOD-9SYNCP
+   IBM_LIBERTY_LICENCE: L-MCAO-9SYMVC
+   JBP_CONFIG_IBMJDK: 'version: 1.8.+'
