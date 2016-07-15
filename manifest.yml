@@ -6,4 +6,4 @@ applications:
   instances: 1
   command: npm start
   host: learn-swift-easy-way
-  path: ./index.html
+  path: index.html
